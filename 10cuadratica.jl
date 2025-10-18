@@ -1,0 +1,10 @@
+#10. Calcular las soluciones x1, x2 de una ecuaci´on de segundo grado dados los coeficientes a, b, y c. F´ormula
+println("dar el valor de a ")
+a=parse(Float64, readline())
+println("dar el valor de b ")
+b=parse(Float64, readline())
+println("dar el valor de c ")
+c=parse(Float64, readline())
+x1=-b + sqrt(( b^2 - 4a * c) / 2a)
+x2=-b - sqrt(( b^2 - 4a * c) / 2a)
+println("la solucion es x1=$x1 y x2=$x2 ")
